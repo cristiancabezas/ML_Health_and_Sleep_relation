@@ -29,7 +29,7 @@ Haz que la respuesta sea clara, concreta, profesional, cercana y con énfasis en
 
 
 '''
-API = st.secrets('API')
+API = st.secrets['API']
 # configuracion openai
 client = OpenAI(api_key=API)
 def generar_respuesta(mensaje):
