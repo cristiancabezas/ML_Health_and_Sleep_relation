@@ -1,7 +1,6 @@
 import streamlit as st
 from openai import OpenAI
 from dotenv import load_dotenv
-import os
 
 load_dotenv()
 
@@ -30,7 +29,7 @@ Haz que la respuesta sea clara, concreta, profesional, cercana y con énfasis en
 
 
 '''
-API = os.getenv('API')
+API = st.secrets('API')
 # configuracion openai
 client = OpenAI(api_key=API)
 def generar_respuesta(mensaje):

@@ -1,0 +1,13 @@
+
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints
+.streamlit/config.toml
+*.tmp
+*.tsv
+*.tfevents
+*catboost_training.json
+
+

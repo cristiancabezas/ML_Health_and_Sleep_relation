@@ -275,8 +275,8 @@ def main():
                 if boton_mail:
                     if '@' not in info_mail:
                         st.error('La dirección de correo no está bien escrita')
-                    CORREO_REMITENTE = os.getenv('CORREO_REMITENTE')
-                    CONTRASENA = os.getenv('CONTRASENA')
+                    CORREO_REMITENTE = st.secrets('CORREO_REMITENTE')
+                    CONTRASENA = st.secrets('CONTRASENA')
                     CORREO_DESTINATARIO = info_mail
                     CONTENIDO = f'''
                     Hola {info_nombre},
