@@ -187,16 +187,6 @@ def main():
                 transformado_2_2 = pd.DataFrame(transformado_2, columns=columnas_2)
                 transformado_2_2 = transformado_2_2[orden_dataframe_2]
 
-                import pandas as pd
-
-                print("Input data shape:", len(input_data))
-                print("Expected columns length:", len(columns))
-                print("Input data:", input_data)
-                print("Columns:", columns)
-
-                input_df = pd.DataFrame([input_data], columns=columns)
-                print(input_df.head())
-
                 # ahora le pasamos el model ya entrenado
                 prediccion_2 = modelo_2.predict(transformado_2_2)
 
