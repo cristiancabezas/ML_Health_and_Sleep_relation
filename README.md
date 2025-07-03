@@ -76,10 +76,10 @@ During the project, various tests were performed:
 ```
 💤 ML_Health_and_Sleep_Relation/
 |
-├── 🐍 app.py                            # Streamlit App
-├── 📄 README.md                         # Brief description of the project
-├── 📄 main.ipynb                        # Main project notebook
-├── 📄 presentacion_ML.pdf               # Final presentation
+├── 🐍 app.py                        # Streamlit App
+├── 📄 README.md                     # Brief description of the project
+├── 📄 main.ipynb                    # Main project notebook
+├── 📄 presentacion_ML.pdf           # Final presentation
 |
 └── 📂 src/
     ├── 📂 data/                     # Datasets
@@ -114,7 +114,7 @@ This project does not replace a medical diagnosis, but can serve as a preventive
 
 Do you have questions, suggestions, or want to collaborate on the project?
 
-- **Email**: (cabezasdelgadocristian@gmail.com)  
+- **Email**: cabezasdelgadocristian@gmail.com  
 - **LinkedIn**: [linkedin.com/in/Cristia Cabezas](https://linkedin.com/in/cristian-cabezas-delgado)
 
 
@@ -203,10 +203,10 @@ Durante el proyecto, se hicieron diferentes pruebas:
 ```
 💤 ML_Health_and_Sleep_Relation/
 |
-├── 🐍 app.py                            # Aplicación Streamlit
-├── 📄 README.md                         # Descripción breve del proyecto
-├── 📄 main.ipynb                        # Notebook principal del proyecto
-├── 📄 presentacion_ML.pdf               # Presentación final
+├── 🐍 app.py                        # Aplicación Streamlit
+├── 📄 README.md                     # Descripción breve del proyecto
+├── 📄 main.ipynb                    # Notebook principal del proyecto
+├── 📄 presentacion_ML.pdf           # Presentación final
 |
 └── 📂 src/
     ├── 📂 data/                     # Conjuntos de dato
@@ -243,5 +243,5 @@ Este análisis sirve como punto de partida para tomar una decisión informada so
 
 ¿Tienes preguntas, sugerencias o quieres colaborar en el proyecto?
 
-- **Email**: (cabezasdelgadocristian@gmail.com)  
+- **Email**: cabezasdelgadocristian@gmail.com
 - **LinkedIn**: [linkedin.com/in/Cristia Cabezas](https://linkedin.com/in/cristian-cabezas-delgado)
