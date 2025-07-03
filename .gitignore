@@ -9,5 +9,8 @@ __pycache__/
 *.tsv
 *.tfevents
 *catboost_training.json
-
+*clasificacion.csv
+*deteccion.csv
+*clientes.csv
+*.txt
 
