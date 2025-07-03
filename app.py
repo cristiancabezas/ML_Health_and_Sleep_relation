@@ -149,10 +149,7 @@ def main():
                     'Gender': genero,
                     'Nurse':nurse,
                     'Age':edad,
-                    'Sleep Duration':sleep_duration,
-                    'Quality of Sleep':calidad_sleep,
                     'Physical Activity Level': deporte,
-                    'Stress Level':estres,
                     'Heart Rate':ritmo_cardiaco,
                     'Daily Steps':pasos,
                     'systolic':systolic,
@@ -166,13 +163,13 @@ def main():
                 # miramos que no esté ya creado y sino lo creamos
                 # sacamos el nombre de las columnas del pipeline
                 columnas_2 = [
-                        'Gender_code','Nurse', 'Age', 'Sleep Duration','Quality of Sleep','Physical Activity Level',
-                        'Stress Level','Heart Rate','Daily Steps','systolic','diastolic'
+                        'Gender_code','Nurse', 'Age','Physical Activity Level',
+                        'Heart Rate','Daily Steps','systolic','diastolic'
                         ]
                 orden_dataframe_2 = [
-                    'Gender_code','Nurse','Age','Sleep Duration','Quality of Sleep','Physical Activity Level',
-                    'Stress Level','Heart Rate','Daily Steps','systolic','diastolic'
-                ]
+                        'Gender_code','Nurse','Age','Physical Activity Level',
+                        'Heart Rate','Daily Steps','systolic','diastolic'
+                    ]
                 # aquí se hace lo mismo que arriba, se pregunta si existe el dataset, si no está creado se crea y se rellena, 
                 # se guarda con el mismo orden que el modelo ha sido entrenado
                 if not os.path.exists(ruta_datos_clientes_2):
